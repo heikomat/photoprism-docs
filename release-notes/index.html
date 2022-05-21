@@ -1,0 +1,4255 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Official Documentation">
+      
+      
+        <meta name="author" content="PhotoPrism UG">
+      
+      
+        <link rel="canonical" href="https://docs.photoprism.app/release-notes/">
+      
+      <link rel="icon" href="../icons/favicon.ico">
+      <meta name="generator" content="mkdocs-1.3.0, mkdocs-material-8.2.15">
+    
+    
+      
+        <title>Release Notes - PhotoPrism</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.c382b1dc.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.cc9b2e1e.min.css">
+        
+          
+          
+          <meta name="theme-color" content="#ffffff">
+        
+      
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../css/custom.css">
+    
+    <script>__md_scope=new URL("..",location),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  
+  
+    
+  
+  
+  
+  
+  
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="PhotoPrism - Release Notes">
+  <meta property="og:description" content="Official Documentation">
+  <meta property="og:url" content="https://docs.photoprism.app/release-notes/">
+  <meta property="og:image" content="https://i.photoprism.app/?cover=24&amp;title=Release%20Notes">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@photoprism_app">
+  <meta name="twitter:creator" content="@photoprism_app">
+  <meta name="twitter:title" content="PhotoPrism - Release Notes">
+  <meta name="twitter:description" content="Official Documentation">
+  <meta name="twitter:image" content="https://i.photoprism.app/?cover=24&amp;title=Release%20Notes">
+  <link rel="shortcut icon" sizes="512x512" type="image/png" href="/icons/logo/512.png">
+  <link rel="shortcut icon" sizes="256x256" type="image/png" href="/icons/logo/256.png">
+  <link rel="shortcut icon" sizes="196x196" type="image/png" href="/icons/logo/196.png">
+  <link rel="shortcut icon" sizes="192x192" type="image/png" href="/icons/logo/192.png">
+  <link rel="shortcut icon" sizes="160x160" type="image/png" href="/icons/logo/160.png">
+  <link rel="shortcut icon" sizes="144x144" type="image/png" href="/icons/logo/144.png">
+  <link rel="shortcut icon" sizes="128x128" type="image/png" href="/icons/logo/128.png">
+  <link rel="shortcut icon" sizes="114x114" type="image/png" href="/icons/logo/114.png">
+  <link rel="shortcut icon" sizes="72x72" type="image/png" href="/icons/logo/72.png">
+  <link rel="shortcut icon" sizes="32x32" type="image/png" href="/icons/logo/32.png">
+  <link rel="shortcut icon" sizes="16x16" type="image/png" href="/icons/logo/16.png">
+  <script async defer data-domain="docs.photoprism.app" src="https://a.photoprism.app/js/s.outbound-links.js"></script>
+
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="white" data-md-color-accent="amber">
+  
+    
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#release-notes" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+        <aside class="md-banner">
+          <div class="md-banner__inner md-grid md-typeset">
+            
+<p class="announce-banner">
+<a href="https://link.photoprism.app/patreon">
+  Become a sponsor on <strong>Patreon <span class="twemoji"><img src="/img/patreon.svg" alt="Patreon" style="width: 16px; height: 16px;"></span></strong>
+</a>
+</p>
+
+          </div>
+        </aside>
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="PhotoPrism" class="md-header__button md-logo" aria-label="PhotoPrism" data-md-component="logo">
+      
+  
+  <svg id="b01a508d-b59d-44f0-8be5-eca2aadd9bc2" data-name="Ebene 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 253.78 224.78"><defs><style>.abae6701-d59a-4183-bf31-f7ca6639fed3,.e9c06423-71c9-47d7-ac4f-57ab05968afa{fill:none;}.e9270bc6-2df5-4c14-bf42-90cfc87d474b{clip-path:url(#ba383851-496a-4a7b-95ff-56b7a97252c7);}.e9c06423-71c9-47d7-ac4f-57ab05968afa{stroke:#000;stroke-miterlimit:10;stroke-width:3px;}</style><clipPath id="ba383851-496a-4a7b-95ff-56b7a97252c7"><rect class="abae6701-d59a-4183-bf31-f7ca6639fed3" x="-47.38" y="5.33" width="370.54" height="215.11"/></clipPath></defs><g class="e9270bc6-2df5-4c14-bf42-90cfc87d474b"><path class="e9c06423-71c9-47d7-ac4f-57ab05968afa" d="M248.26,187.21l-5.79,32m-236.15-31,19.06,18.88M152.54,24.27,25.43,206.59a.13.13,0,0,0,.09.2l216.74,12.43a.13.13,0,0,0,.12-.18L152.76,24.29A.13.13,0,0,0,152.54,24.27ZM126.35,6.64,5.74,188a.16.16,0,0,0,.14.25l241.63-1a.16.16,0,0,0,.14-.25L126.63,6.64A.17.17,0,0,0,126.35,6.64Zm.15-.21,26.17,17.66"/></g></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            PhotoPrism
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Release Notes
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <div class="md-header__option">
+        <div class="md-select">
+          
+          <button class="md-header__button md-icon" aria-label="Select language">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m12.87 15.07-2.54-2.51.03-.03A17.52 17.52 0 0 0 14.07 6H17V4h-7V2H8v2H1v2h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11.76-2.04M18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2l-4.5-12m-2.62 7 1.62-4.33L19.12 17h-3.24Z"/></svg>
+          </button>
+          <div class="md-select__inner">
+            <ul class="md-select__list">
+              
+                <li class="md-select__item">
+                  <a href="/" hreflang="en" class="md-select__link">
+                    🇬🇧 English
+                  </a>
+                </li>
+                
+                <li class="md-select__item">
+                  <a href="https://docs-de.photoprism.app/" hreflang="de" class="md-select__link">
+                    🇩🇪 Deutsch
+                  </a>
+                </li>
+                
+            </ul>
+          </div>
+        </div>
+      </div>
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/photoprism/photoprism" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    photoprism/photoprism
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-tabs__inner md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href=".." class="md-tabs__link">
+        Getting Started
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+    
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../user-guide/" class="md-tabs__link md-tabs__link--active">
+        User Guide
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../developer-guide/" class="md-tabs__link">
+        Developer Guide
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../credits/" class="md-tabs__link">
+        About
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="PhotoPrism" class="md-nav__button md-logo" aria-label="PhotoPrism" data-md-component="logo">
+      
+  
+  <svg id="b01a508d-b59d-44f0-8be5-eca2aadd9bc2" data-name="Ebene 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 253.78 224.78"><defs><style>.abae6701-d59a-4183-bf31-f7ca6639fed3,.e9c06423-71c9-47d7-ac4f-57ab05968afa{fill:none;}.e9270bc6-2df5-4c14-bf42-90cfc87d474b{clip-path:url(#ba383851-496a-4a7b-95ff-56b7a97252c7);}.e9c06423-71c9-47d7-ac4f-57ab05968afa{stroke:#000;stroke-miterlimit:10;stroke-width:3px;}</style><clipPath id="ba383851-496a-4a7b-95ff-56b7a97252c7"><rect class="abae6701-d59a-4183-bf31-f7ca6639fed3" x="-47.38" y="5.33" width="370.54" height="215.11"/></clipPath></defs><g class="e9270bc6-2df5-4c14-bf42-90cfc87d474b"><path class="e9c06423-71c9-47d7-ac4f-57ab05968afa" d="M248.26,187.21l-5.79,32m-236.15-31,19.06,18.88M152.54,24.27,25.43,206.59a.13.13,0,0,0,.09.2l216.74,12.43a.13.13,0,0,0,.12-.18L152.76,24.29A.13.13,0,0,0,152.54,24.27ZM126.35,6.64,5.74,188a.16.16,0,0,0,.14.25l241.63-1a.16.16,0,0,0,.14-.25L126.63,6.64A.17.17,0,0,0,126.35,6.64Zm.15-.21,26.17,17.66"/></g></svg>
+
+    </a>
+    PhotoPrism
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/photoprism/photoprism" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    photoprism/photoprism
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1" type="checkbox" id="__nav_1" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_1">
+          Getting Started
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Getting Started" data-md-level="1">
+        <label class="md-nav__title" for="__nav_1">
+          <span class="md-nav__icon md-icon"></span>
+          Getting Started
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        Features
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../getting-started/" class="md-nav__link">
+        Setup
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../getting-started/docker-compose/" class="md-nav__link">
+        Docker Compose
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../getting-started/docker/" class="md-nav__link">
+        Pure Docker
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../getting-started/raspberry-pi/" class="md-nav__link">
+        Raspberry Pi
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../getting-started/freebsd/" class="md-nav__link">
+        FreeBSD
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_7" type="checkbox" id="__nav_1_7" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_1_7">
+          Cloud
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Cloud" data-md-level="2">
+        <label class="md-nav__title" for="__nav_1_7">
+          <span class="md-nav__icon md-icon"></span>
+          Cloud
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../getting-started/cloud/pikapods/" class="md-nav__link">
+        PikaPods App
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../getting-started/cloud/digitalocean/" class="md-nav__link">
+        DigitalOcean
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_8" type="checkbox" id="__nav_1_8" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_1_8">
+          NAS Devices
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="NAS Devices" data-md-level="2">
+        <label class="md-nav__title" for="__nav_1_8">
+          <span class="md-nav__icon md-icon"></span>
+          NAS Devices
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../getting-started/nas/synology/" class="md-nav__link">
+        Synology
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../getting-started/nas/unraid/" class="md-nav__link">
+        Unraid
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../getting-started/nas/openmediavault/" class="md-nav__link">
+        openmediavault
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../getting-started/config-options/" class="md-nav__link">
+        Config Options
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../getting-started/updates/" class="md-nav__link">
+        Getting Updates
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_11" type="checkbox" id="__nav_1_11" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_1_11">
+          Troubleshooting
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Troubleshooting" data-md-level="2">
+        <label class="md-nav__title" for="__nav_1_11">
+          <span class="md-nav__icon md-icon"></span>
+          Troubleshooting
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../getting-started/troubleshooting/" class="md-nav__link">
+        Checklists
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../getting-started/troubleshooting/logs/" class="md-nav__link">
+        Logs
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../getting-started/troubleshooting/docker/" class="md-nav__link">
+        Docker
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../getting-started/troubleshooting/mariadb/" class="md-nav__link">
+        MariaDB
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../getting-started/troubleshooting/browsers/" class="md-nav__link">
+        Browsers
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../getting-started/troubleshooting/performance/" class="md-nav__link">
+        Performance
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_12" type="checkbox" id="__nav_1_12" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_1_12">
+          Reverse Proxies
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Reverse Proxies" data-md-level="2">
+        <label class="md-nav__title" for="__nav_1_12">
+          <span class="md-nav__icon md-icon"></span>
+          Reverse Proxies
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../getting-started/proxies/traefik/" class="md-nav__link">
+        Traefik
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../getting-started/proxies/caddy-1/" class="md-nav__link">
+        Caddy 1
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../getting-started/proxies/caddy-2/" class="md-nav__link">
+        Caddy 2
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../getting-started/proxies/nginx/" class="md-nav__link">
+        NGINX
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../getting-started/proxies/apache-2/" class="md-nav__link">
+        Apache 2.4
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../getting-started/proxies/swag/" class="md-nav__link">
+        SWAG
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_13" type="checkbox" id="__nav_1_13" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_1_13">
+          Advanced
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Advanced" data-md-level="2">
+        <label class="md-nav__title" for="__nav_1_13">
+          <span class="md-nav__icon md-icon"></span>
+          Advanced
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../getting-started/advanced/transcoding/" class="md-nav__link">
+        Transcoding
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../getting-started/advanced/kubernetes/" class="md-nav__link">
+        Kubernetes
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../getting-started/advanced/backups/" class="md-nav__link">
+        Backups
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../getting-started/advanced/databases/" class="md-nav__link">
+        Databases
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../getting-started/advanced/caching/" class="md-nav__link">
+        Caching
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../getting-started/advanced/nginx-proxy-setup/" class="md-nav__link">
+        NGINX
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../getting-started/advanced/scalability/" class="md-nav__link">
+        Scalability
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../getting-started/faq/" class="md-nav__link">
+        FAQ
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2">
+          User Guide
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="User Guide" data-md-level="1">
+        <label class="md-nav__title" for="__nav_2">
+          <span class="md-nav__icon md-icon"></span>
+          User Guide
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../user-guide/" class="md-nav__link">
+        Introduction
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_2" type="checkbox" id="__nav_2_2" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2_2">
+          Library
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Library" data-md-level="2">
+        <label class="md-nav__title" for="__nav_2_2">
+          <span class="md-nav__icon md-icon"></span>
+          Library
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../user-guide/library/" class="md-nav__link">
+        Introduction
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../user-guide/library/originals/" class="md-nav__link">
+        Index Originals
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../user-guide/library/import/" class="md-nav__link">
+        Import Files
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../user-guide/library/duplicates/" class="md-nav__link">
+        Duplicates
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../user-guide/advanced/metadata/" class="md-nav__link">
+        Metadata
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../user-guide/library/upload/" class="md-nav__link">
+        Web Upload
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../user-guide/library/webdav/" class="md-nav__link">
+        WebDAV Sync
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../user-guide/library/files/" class="md-nav__link">
+        File Browser
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_3" type="checkbox" id="__nav_2_3" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2_3">
+          Browse & Search
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Browse & Search" data-md-level="2">
+        <label class="md-nav__title" for="__nav_2_3">
+          <span class="md-nav__icon md-icon"></span>
+          Browse & Search
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../user-guide/navigate/" class="md-nav__link">
+        Navigate
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../user-guide/organize/views/" class="md-nav__link">
+        Views
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../user-guide/organize/search/" class="md-nav__link">
+        Search
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../user-guide/organize/browse/" class="md-nav__link">
+        Sections
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_4" type="checkbox" id="__nav_2_4" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2_4">
+          Organize
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Organize" data-md-level="2">
+        <label class="md-nav__title" for="__nav_2_4">
+          <span class="md-nav__icon md-icon"></span>
+          Organize
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../user-guide/organize/albums/" class="md-nav__link">
+        Albums
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../user-guide/organize/people/" class="md-nav__link">
+        People
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../user-guide/organize/labels/" class="md-nav__link">
+        Labels
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../user-guide/organize/archive/" class="md-nav__link">
+        Archive
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../user-guide/organize/delete/" class="md-nav__link">
+        Delete
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../user-guide/organize/private/" class="md-nav__link">
+        Private
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../user-guide/organize/review/" class="md-nav__link">
+        Review
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../user-guide/organize/stacks/" class="md-nav__link">
+        Stacks
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../user-guide/organize/edit/" class="md-nav__link">
+        Edit Metadata
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../user-guide/organize/download/" class="md-nav__link">
+        Download
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../user-guide/organize/video/" class="md-nav__link">
+        Videos
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../user-guide/organize/places/" class="md-nav__link">
+        Places
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../user-guide/organize/moments/" class="md-nav__link">
+        Moments
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../user-guide/organize/calendar/" class="md-nav__link">
+        Calendar
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../user-guide/organize/folders/" class="md-nav__link">
+        Folders
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../user-guide/organize/panoramas/" class="md-nav__link">
+        Panoramas
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../user-guide/organize/scans/" class="md-nav__link">
+        Scans
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_5" type="checkbox" id="__nav_2_5" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2_5">
+          Share
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Share" data-md-level="2">
+        <label class="md-nav__title" for="__nav_2_5">
+          <span class="md-nav__icon md-icon"></span>
+          Share
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../user-guide/share/share/" class="md-nav__link">
+        Album Link
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_6" type="checkbox" id="__nav_2_6" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2_6">
+          Sync
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Sync" data-md-level="2">
+        <label class="md-nav__title" for="__nav_2_6">
+          <span class="md-nav__icon md-icon"></span>
+          Sync
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../user-guide/sync/webdav/" class="md-nav__link">
+        WebDAV
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../user-guide/sync/mobile-devices/" class="md-nav__link">
+        Mobile Devices
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../user-guide/sync/dropbox/" class="md-nav__link">
+        Dropbox
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_7" type="checkbox" id="__nav_2_7" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2_7">
+          Settings
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Settings" data-md-level="2">
+        <label class="md-nav__title" for="__nav_2_7">
+          <span class="md-nav__icon md-icon"></span>
+          Settings
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../user-guide/settings/general/" class="md-nav__link">
+        General
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../user-guide/settings/library/" class="md-nav__link">
+        Library
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../user-guide/settings/advanced/" class="md-nav__link">
+        Advanced
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../user-guide/settings/sync/" class="md-nav__link">
+        Sync
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../user-guide/settings/account/" class="md-nav__link">
+        Account
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_8" type="checkbox" id="__nav_2_8" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2_8">
+          Migrate
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Migrate" data-md-level="2">
+        <label class="md-nav__title" for="__nav_2_8">
+          <span class="md-nav__icon md-icon"></span>
+          Migrate
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../user-guide/use-cases/google/" class="md-nav__link">
+        Google Photos
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../user-guide/use-cases/apple/" class="md-nav__link">
+        Apple Photos
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../user-guide/use-cases/flickr/" class="md-nav__link">
+        Flickr
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_9" type="checkbox" id="__nav_2_9" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2_9">
+          Advanced
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Advanced" data-md-level="2">
+        <label class="md-nav__title" for="__nav_2_9">
+          <span class="md-nav__icon md-icon"></span>
+          Advanced
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../getting-started/advanced/backups/" class="md-nav__link">
+        Backups
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../user-guide/advanced/restore/" class="md-nav__link">
+        Restore
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../user-guide/advanced/export/" class="md-nav__link">
+        Metadata Export
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../user-guide/advanced/folders/" class="md-nav__link">
+        Folders
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../user-guide/pwa/" class="md-nav__link">
+        Mobile App (PWA)
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Release Notes
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Release Notes
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#development-preview" class="md-nav__link">
+    Development Preview
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#may-17-2022" class="md-nav__link">
+    May 17, 2022
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#march-2-2022" class="md-nav__link">
+    March 2, 2022
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#january-21-2022" class="md-nav__link">
+    January 21, 2022
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#january-18-2022" class="md-nav__link">
+    January 18, 2022
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#january-7-2022" class="md-nav__link">
+    January 7, 2022
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#december-15-2021" class="md-nav__link">
+    December 15, 2021
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#december-10-2021" class="md-nav__link">
+    December 10, 2021
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#december-3-2021" class="md-nav__link">
+    December 3, 2021
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#november-30-2021" class="md-nav__link">
+    November 30, 2021
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#november-28-2021" class="md-nav__link">
+    November 28, 2021
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#november-27-2021" class="md-nav__link">
+    November 27, 2021
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#october-18-2021" class="md-nav__link">
+    October 18, 2021
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#october-10-2021" class="md-nav__link">
+    October 10, 2021
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#october-9-2021" class="md-nav__link">
+    October 9, 2021
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#october-7-2021" class="md-nav__link">
+    October 7, 2021
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#october-2-2021" class="md-nav__link">
+    October 2, 2021
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#september-25-2021" class="md-nav__link">
+    September 25, 2021
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#may-23-2021" class="md-nav__link">
+    May 23, 2021
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#may-20-2021" class="md-nav__link">
+    May 20, 2021
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#may-19-2021" class="md-nav__link">
+    May 19, 2021
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#may-18-2021" class="md-nav__link">
+    May 18, 2021
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#may-5-2021" class="md-nav__link">
+    May 5, 2021
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#april-26-2021" class="md-nav__link">
+    April 26, 2021
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#april-22-2021" class="md-nav__link">
+    April 22, 2021
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#february-22-2021" class="md-nav__link">
+    February 22, 2021
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#february-17-2021" class="md-nav__link">
+    February 17, 2021
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#february-16-2021" class="md-nav__link">
+    February 16, 2021
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#february-11-2021" class="md-nav__link">
+    February 11, 2021
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#february-8-2021" class="md-nav__link">
+    February 8, 2021
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#january-28-2021" class="md-nav__link">
+    January 28, 2021
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#january-21-2021" class="md-nav__link">
+    January 21, 2021
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#january-20-2021" class="md-nav__link">
+    January 20, 2021
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#january-19-2021" class="md-nav__link">
+    January 19, 2021
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#january-11-2021" class="md-nav__link">
+    January 11, 2021
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#january-4-2021" class="md-nav__link">
+    January 4, 2021
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#january-2-2021" class="md-nav__link">
+    January 2, 2021
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#december-31-2020" class="md-nav__link">
+    December 31, 2020
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../user-guide/faq/" class="md-nav__link">
+        FAQ
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3">
+          Developer Guide
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Developer Guide" data-md-level="1">
+        <label class="md-nav__title" for="__nav_3">
+          <span class="md-nav__icon md-icon"></span>
+          Developer Guide
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../developer-guide/" class="md-nav__link">
+        Welcome
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../developer-guide/issues/" class="md-nav__link">
+        GitHub Issues
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../developer-guide/pull-requests/" class="md-nav__link">
+        Pull Requests
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../developer-guide/code-quality/" class="md-nav__link">
+        Code Quality
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../developer-guide/setup/" class="md-nav__link">
+        Setup
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../developer-guide/directories/" class="md-nav__link">
+        Directories
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../developer-guide/configuration/" class="md-nav__link">
+        Configuration
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../developer-guide/tests/" class="md-nav__link">
+        Running Tests
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../developer-guide/documentation/" class="md-nav__link">
+        Documentation
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_10" type="checkbox" id="__nav_3_10" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3_10">
+          Translations
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Translations" data-md-level="2">
+        <label class="md-nav__title" for="__nav_3_10">
+          <span class="md-nav__icon md-icon"></span>
+          Translations
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../developer-guide/translations-weblate/" class="md-nav__link">
+        Add Translations
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../developer-guide/translations/" class="md-nav__link">
+        Legacy Method
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../security-policy/" class="md-nav__link">
+        Security Policy
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_12" type="checkbox" id="__nav_3_12" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3_12">
+          User Interface
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="User Interface" data-md-level="2">
+        <label class="md-nav__title" for="__nav_3_12">
+          <span class="md-nav__icon md-icon"></span>
+          User Interface
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../developer-guide/ui/introduction/" class="md-nav__link">
+        Introduction
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../developer-guide/ui/screenshots/" class="md-nav__link">
+        Screenshots
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../developer-guide/ui/components/" class="md-nav__link">
+        Components
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../developer-guide/ui/design/" class="md-nav__link">
+        Design
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../developer-guide/ui/rest-api/" class="md-nav__link">
+        REST API
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../developer-guide/ui/browsers/" class="md-nav__link">
+        Browsers
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../developer-guide/ui/maps/" class="md-nav__link">
+        Interactive Maps
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_13" type="checkbox" id="__nav_3_13" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3_13">
+          Media Files
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Media Files" data-md-level="2">
+        <label class="md-nav__title" for="__nav_3_13">
+          <span class="md-nav__icon md-icon"></span>
+          Media Files
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../developer-guide/media/" class="md-nav__link">
+        Formats
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../developer-guide/media/import/" class="md-nav__link">
+        Import
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../developer-guide/media/abstraction/" class="md-nav__link">
+        Abstraction
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../developer-guide/media/encryption/" class="md-nav__link">
+        Encryption
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../developer-guide/media/raw/" class="md-nav__link">
+        RAW Images
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../developer-guide/media/heif/" class="md-nav__link">
+        HEIF / HEIC
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../developer-guide/media/videos/" class="md-nav__link">
+        Videos
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../developer-guide/media/thumbnails/" class="md-nav__link">
+        Thumbnails
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../developer-guide/media/samples/" class="md-nav__link">
+        Samples
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_14" type="checkbox" id="__nav_3_14" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3_14">
+          Metadata
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Metadata" data-md-level="2">
+        <label class="md-nav__title" for="__nav_3_14">
+          <span class="md-nav__icon md-icon"></span>
+          Metadata
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../developer-guide/metadata/geocoding/" class="md-nav__link">
+        Geocoding
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../developer-guide/metadata/colors/" class="md-nav__link">
+        Color Extraction
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../developer-guide/metadata/classification/" class="md-nav__link">
+        Image Classification
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../developer-guide/metadata/face-recognition/" class="md-nav__link">
+        Face Recognition
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../developer-guide/metadata/xmp/" class="md-nav__link">
+        XMP
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../developer-guide/metadata/exif/" class="md-nav__link">
+        EXIF
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../developer-guide/metadata/edit-exif/" class="md-nav__link">
+        Edit EXIF
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_15" type="checkbox" id="__nav_3_15" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3_15">
+          Clients
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Clients" data-md-level="2">
+        <label class="md-nav__title" for="__nav_3_15">
+          <span class="md-nav__icon md-icon"></span>
+          Clients
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../developer-guide/clients/go/" class="md-nav__link">
+        Go
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_16" type="checkbox" id="__nav_3_16" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3_16">
+          Checklists
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Checklists" data-md-level="2">
+        <label class="md-nav__title" for="__nav_3_16">
+          <span class="md-nav__icon md-icon"></span>
+          Checklists
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../developer-guide/checklists/web-security/" class="md-nav__link">
+        Web Security
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_17" type="checkbox" id="__nav_3_17" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3_17">
+          Technologies
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Technologies" data-md-level="2">
+        <label class="md-nav__title" for="__nav_3_17">
+          <span class="md-nav__icon md-icon"></span>
+          Technologies
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../developer-guide/technologies/yaml/" class="md-nav__link">
+        YAML
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../developer-guide/technologies/golang/" class="md-nav__link">
+        Golang
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../developer-guide/technologies/tensorflow/" class="md-nav__link">
+        TensorFlow
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../developer-guide/technologies/docker/" class="md-nav__link">
+        Docker
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../developer-guide/technologies/broadway/" class="md-nav__link">
+        Broadway
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../developer-guide/technologies/external-apis/" class="md-nav__link">
+        External APIs
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_4">
+          About
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="About" data-md-level="1">
+        <label class="md-nav__title" for="__nav_4">
+          <span class="md-nav__icon md-icon"></span>
+          About
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../credits/" class="md-nav__link">
+        Credits
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4_2" type="checkbox" id="__nav_4_2" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_4_2">
+          License
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="License" data-md-level="2">
+        <label class="md-nav__title" for="__nav_4_2">
+          <span class="md-nav__icon md-icon"></span>
+          License
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../license/agpl/" class="md-nav__link">
+        GNU AGPL
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../license/docs/" class="md-nav__link">
+        Documentation
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#development-preview" class="md-nav__link">
+    Development Preview
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#may-17-2022" class="md-nav__link">
+    May 17, 2022
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#march-2-2022" class="md-nav__link">
+    March 2, 2022
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#january-21-2022" class="md-nav__link">
+    January 21, 2022
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#january-18-2022" class="md-nav__link">
+    January 18, 2022
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#january-7-2022" class="md-nav__link">
+    January 7, 2022
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#december-15-2021" class="md-nav__link">
+    December 15, 2021
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#december-10-2021" class="md-nav__link">
+    December 10, 2021
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#december-3-2021" class="md-nav__link">
+    December 3, 2021
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#november-30-2021" class="md-nav__link">
+    November 30, 2021
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#november-28-2021" class="md-nav__link">
+    November 28, 2021
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#november-27-2021" class="md-nav__link">
+    November 27, 2021
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#october-18-2021" class="md-nav__link">
+    October 18, 2021
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#october-10-2021" class="md-nav__link">
+    October 10, 2021
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#october-9-2021" class="md-nav__link">
+    October 9, 2021
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#october-7-2021" class="md-nav__link">
+    October 7, 2021
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#october-2-2021" class="md-nav__link">
+    October 2, 2021
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#september-25-2021" class="md-nav__link">
+    September 25, 2021
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#may-23-2021" class="md-nav__link">
+    May 23, 2021
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#may-20-2021" class="md-nav__link">
+    May 20, 2021
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#may-19-2021" class="md-nav__link">
+    May 19, 2021
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#may-18-2021" class="md-nav__link">
+    May 18, 2021
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#may-5-2021" class="md-nav__link">
+    May 5, 2021
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#april-26-2021" class="md-nav__link">
+    April 26, 2021
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#april-22-2021" class="md-nav__link">
+    April 22, 2021
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#february-22-2021" class="md-nav__link">
+    February 22, 2021
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#february-17-2021" class="md-nav__link">
+    February 17, 2021
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#february-16-2021" class="md-nav__link">
+    February 16, 2021
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#february-11-2021" class="md-nav__link">
+    February 11, 2021
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#february-8-2021" class="md-nav__link">
+    February 8, 2021
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#january-28-2021" class="md-nav__link">
+    January 28, 2021
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#january-21-2021" class="md-nav__link">
+    January 21, 2021
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#january-20-2021" class="md-nav__link">
+    January 20, 2021
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#january-19-2021" class="md-nav__link">
+    January 19, 2021
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#january-11-2021" class="md-nav__link">
+    January 11, 2021
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#january-4-2021" class="md-nav__link">
+    January 4, 2021
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#january-2-2021" class="md-nav__link">
+    January 2, 2021
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#december-31-2020" class="md-nav__link">
+    December 31, 2020
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content" data-md-component="content">
+            <article class="md-content__inner md-typeset">
+              
+                
+  <a href="https://github.com/photoprism/photoprism-docs/tree/master/docs/release-notes.md" title="Edit this page" class="md-content__button md-icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25Z"/></svg>
+  </a>
+
+
+
+<h1 id="release-notes">Release Notes<a class="headerlink" href="#release-notes" title="Permanent link">&para;</a></h1>
+<div class="admonition example">
+<p><strong>Back us on <a href="https://link.photoprism.app/patreon">Patreon</a> or <a href="https://link.photoprism.app/sponsor">GitHub Sponsors</a>.</strong>
+Your continued support <a href="../funding/">helps us</a> provide regular updates and services like <a href="https://try.photoprism.app/places">world maps</a>. Thank you! <span class="twemoji heart purple"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M14 20.408c-.492.308-.903.546-1.192.709-.153.086-.308.17-.463.252h-.002a.75.75 0 0 1-.686 0 16.709 16.709 0 0 1-.465-.252 31.147 31.147 0 0 1-4.803-3.34C3.8 15.572 1 12.331 1 8.513 1 5.052 3.829 2.5 6.736 2.5 9.03 2.5 10.881 3.726 12 5.605 13.12 3.726 14.97 2.5 17.264 2.5 20.17 2.5 23 5.052 23 8.514c0 3.818-2.801 7.06-5.389 9.262A31.146 31.146 0 0 1 14 20.408z"/></svg></span></p>
+</div>
+<h3 id="development-preview">Development Preview<a class="headerlink" href="#development-preview" title="Permanent link">&para;</a></h3>
+<p><span class="build">Build 220521-441b51b2</span></p>
+<p>This service release fixes potential issues with our new Debian 12-based Docker image which was part of the last update. These may have prevented some users from updating PhotoPrism without making changes to their environment. In our ongoing effort to improve usability and performance, we have also made improvements to the user interface, such as using the operating system font by default instead of Google's Roboto.</p>
+<ul>
+<li>Auth: <a href="https://github.com/photoprism/photoprism/issues/2339">Short initial passwords are permitted again to avoid login problems</a></li>
+<li>Logs: <a href="https://github.com/photoprism/photoprism/issues/2335">Repeated log messages are omitted to prevent feedback loops</a></li>
+<li>Logs: <a href="https://github.com/photoprism/photoprism/issues/2335">Only messages with a log level of <em>info</em> or higher are displayed in the UI</a></li>
+<li>Search: <a href="https://github.com/photoprism/photoprism/issues/2341"><code>mono:true</code> filter now omits files with unknown chroma</a></li>
+<li>Docker: <a href="https://github.com/photoprism/photoprism/issues/2334">Removed incorrect permission check for storage folder on startup</a></li>
+<li>Docker: <a href="https://github.com/photoprism/photoprism/issues/2336">Supported User and Group ID ranges have been documented</a></li>
+</ul>
+<div class="admonition tldr">
+<p>You can test upcoming features and improvements by changing the image from <code>photoprism/photoprism:latest</code>
+to <code>photoprism/photoprism:preview</code> in your <a href="https://dl.photoprism.app/docker/"><code>docker-compose.yml</code></a>.
+Then <a href="../getting-started/updates/">pull the most recent image</a> and restart your instance.</p>
+</div>
+<h3 id="may-17-2022">May 17, 2022<a class="headerlink" href="#may-17-2022" title="Permanent link">&para;</a></h3>
+<p><span class="build">Build 220517-b9c68f8f</span></p>
+<p>This update features search UX improvements, a new Docker base image based on Debian 12 "Bookworm",
+as well as fixes for recently discovered issues. Front- and backend <a href="https://translate.photoprism.app/">translations</a> in numerous
+languages have been added and updated. Thanks to all involved!</p>
+<ul>
+<li>File Formats: <a href="https://github.com/photoprism/photoprism/issues/1226">Added native support for WebP images</a> and <a href="https://github.com/photoprism/photoprism/commit/82d61d1f93961daa5b9ffea31e2ae4ab8897d2a7">animated GIFs</a></li>
+<li>UX: <a href="https://github.com/photoprism/photoprism/issues/2234">RAW files are skipped by default when downloading photos and ZIP archives</a></li>
+<li>Auth: <a href="https://github.com/photoprism/photoprism/issues/2248">Passwords must have at least 8 characters to mitigate brute-force attacks</a></li>
+<li>Search: <a href="https://github.com/photoprism/photoprism/issues/1438">User interface and database performance optimizations</a></li>
+<li>Search: <a href="https://github.com/photoprism/photoprism/issues/1995">Fixed occasional lag when entering queries in the search toolbar</a></li>
+<li>Search: <a href="https://github.com/photoprism/photoprism/issues/1994">Improved <code>album:...</code> filter supports numeric names, <code>albums:..</code> also AND/OR</a></li>
+<li>Search: <a href="https://github.com/photoprism/photoprism/issues/2079">Improved <code>camera:...</code> and <code>lens:...</code> filters accept names in addition to IDs</a></li>
+<li>Search: <a href="https://github.com/photoprism/photoprism/issues/2169">Added <code>square:yes</code> and <code>landscape:yes</code> filters</a></li>
+<li>Albums: <a href="https://github.com/photoprism/photoprism/pull/2152">"Add to album" dialog preloads more names for auto-completion</a></li>
+<li>Albums: <a href="https://github.com/photoprism/photoprism/issues/2181">Album names are shortened if necessary to avoid errors when saving</a></li>
+<li>Albums: <a href="https://github.com/photoprism/photoprism/issues/2233">Fixed accidental creation of duplicates by pressing Enter multiple times</a></li>
+<li>People: <a href="https://github.com/photoprism/photoprism/issues/2182">Improved logging and fixed potential issues with matching unrecognized faces</a></li>
+<li>Places: <a href="https://github.com/photoprism/photoprism/commit/49e923232380117c8b1eab9ff5b41de878d46ab2">Number of pictures rendered on the map has been limited to 500,000</a></li>
+<li>Library: <a href="https://github.com/photoprism/photoprism/discussions/1683">Added button to clear log history in <em>Library</em> &gt; <em>Errors</em></a></li>
+<li>Library: <a href="https://github.com/photoprism/photoprism/issues/2273">RAW previews and the number of actual files are shown under Originals</a></li>
+<li>Library: <a href="https://github.com/photoprism/photoprism/issues/2189">Disabled hidden files warning while indexing as it can be misleading</a></li>
+<li>Index: <a href="https://github.com/photoprism/photoprism/issues/2257">Fixed errors when re-indexing libraries with archived photos</a></li>
+<li>Index: <a href="https://github.com/photoprism/photoprism/issues/2262">RAW and video conversion commands run in a virtual home directory</a></li>
+<li>Thumbnails: <a href="https://github.com/photoprism/photoprism/issues/2215">Reduced default JPEG quality from 92 to 85 to optimize storage and loading</a></li>
+<li>Metadata: <a href="https://github.com/photoprism/photoprism/issues/2239">Manual local time changes are always preserved when reindexing</a></li>
+<li>Metadata: <a href="https://github.com/photoprism/photoprism/discussions/2214">Fixed Exif orientation flag when converting HEIF/HEIC images to JPEG</a></li>
+<li>Metadata: <a href="https://github.com/photoprism/photoprism/issues/625">Fault-tolerant parsing of timestamps from Exif and JSON sidecar files</a></li>
+<li>Metadata: <a href="https://github.com/photoprism/photoprism/issues/2271">Improved parsing of two-digit years in original file paths</a></li>
+<li>Metadata: <a href="https://github.com/photoprism/photoprism/issues/2231">Exif IFD1 tags with existing IFD0 values are ignored to improve standard compliance</a></li>
+<li>Metadata: <a href="https://github.com/photoprism/photoprism/issues/2196">Brute-force search is skipped by default if no Exif headers were found in JPEG, PNG, TIFF, and HEIF files</a></li>
+<li>Metadata: <a href="https://github.com/photoprism/photoprism/issues/2320">SubSecDateTimeOriginal and SubSecCreateDate timestamps are preferred</a></li>
+<li>WebDAV: <a href="https://github.com/photoprism/photoprism/issues/1785">Up- and download sync can no longer be enabled at the same time to prevent unexpected behavior</a></li>
+<li>WebDAV: <a href="https://github.com/photoprism/photoprism/issues/1781">Added timeout/retry settings and improved handling of sync errors</a></li>
+<li>WebDAV: <a href="https://github.com/photoprism/photoprism/issues/2293">Fixed sharing videos and uploading automatically created albums</a></li>
+<li>CLI: <a href="https://github.com/photoprism/photoprism/issues/2250">Renamed <code>--config-file</code> to <code>--defaults-yaml</code> and improved command help</a></li>
+<li>CLI: <a href="https://github.com/photoprism/photoprism/issues/2195">Added short names for common config flags, e.g. <code>-i</code> for <code>--wakeup-interval</code></a></li>
+<li>CLI: <a href="https://github.com/photoprism/photoprism/issues/2252">Run <code>photoprism show tags</code> to display metadata tags and supported standards</a></li>
+<li>CLI: <a href="https://github.com/photoprism/photoprism/issues/2247">Run <code>photoprism show formats</code> to display supported media and sidecar file formats</a></li>
+<li>CLI: <a href="https://github.com/photoprism/photoprism/commit/7291c1d70329d85af2dfc1e9de512d28378974a5">Run <code>photoprism show filters</code> to display a search filter overview with examples</a></li>
+<li>Config: <a href="https://github.com/photoprism/photoprism/issues/2222">Improved FFmpeg parameters for Intel QSV hardware transcoding</a></li>
+<li>Config: <a href="https://github.com/photoprism/photoprism/issues/2125">Added NVIDIA hardware video transcoding support for sponsors</a></li>
+<li>Config: <a href="https://github.com/photoprism/photoprism/issues/2227">Added <code>--disable-raw</code> flag to disable indexing and conversion of RAW files</a></li>
+<li>Config: <a href="https://github.com/photoprism/photoprism/issues/1017">Added <code>--resolution-limit</code> option to skip high-resolution images when indexing</a></li>
+<li>Docker: <a href="https://github.com/photoprism/photoprism/issues/2178">New Debian 12 "Bookworm" base image with FFmpeg 4.4.1 and Darktable 3.8.1</a></li>
+<li>Docker: <a href="https://github.com/photoprism/photoprism/issues/2228">Added default users and groups for enhanced video transcoding compatibility</a></li>
+<li>Translations: <a href="https://translate.photoprism.app/">Added Swedish, Romanian, Turkish, Lithuanian, Bulgarian, Malay, and Croatian</a></li>
+</ul>
+<h3 id="march-2-2022">March 2, 2022<a class="headerlink" href="#march-2-2022" title="Permanent link">&para;</a></h3>
+<p><span class="build">Build 220302-0059f429</span></p>
+<p>The <a href="https://hub.docker.com/r/photoprism/photoprism/tags">Docker images</a> for this release are based on Debian 11
+"Bullseye" and include many updated dependencies such as <a href="https://www.darktable.org/2022/02/darktable-3.8.1-released/">Darktable 3.8</a>.
+Behind the scenes, the build process has also been improved so that it will be easier to provide standalone packages in the future.</p>
+<ul>
+<li>Auth: <a href="https://github.com/photoprism/photoprism/issues/782">New login screen with more space for buttons, links, and legal information</a></li>
+<li>Metadata: <a href="https://github.com/photoprism/photoprism/issues/2017">Redesigned file details tab in the edit dialog</a></li>
+<li>Metadata: <a href="https://github.com/photoprism/photoprism/issues/2082">Support for Zulu formatted timestamps in Exiftool JSON and XMP</a></li>
+<li>Sharing: <a href="https://github.com/photoprism/photoprism/issues/1376">Fixed upload of complete albums via WebDAV</a></li>
+<li>Sharing: <a href="https://github.com/photoprism/photoprism/issues/829">Manual WebDAV upload of video and RAW files</a></li>
+<li>iOS: <a href="https://github.com/photoprism/photoprism/issues/2074">Fixed multi-select via long touch in Safari PWA mode</a></li>
+<li>API: <a href="https://github.com/photoprism/photoprism/issues/822#issuecomment-1046276315">Added cache control header for faster thumbnail loading</a></li>
+<li>Config: <a href="https://github.com/photoprism/photoprism/commit/9c1325f38ec38bc4ca01df4ca8bc723841cc7cc7">Simplified configuration of Unix domain socket database connections</a></li>
+<li>Config: <a href="https://github.com/photoprism/photoprism/issues/1990">Added <code>--imprint</code> and <code>--imprint-url</code> to display legal information in the footer</a></li>
+<li>Docker: <a href="https://github.com/photoprism/photoprism/issues/2076">Automatic installation of compatible CPU and GPU drivers</a></li>
+<li>Translations: <a href="https://github.com/photoprism/photoprism/issues/2083">Updated all front- and backend locales</a></li>
+</ul>
+<p><em>You can now join us on <a href="https://translate.photoprism.app/">translate.photoprism.app</a> to help translate the UI!</em></p>
+<h3 id="january-21-2022">January 21, 2022<a class="headerlink" href="#january-21-2022" title="Permanent link">&para;</a></h3>
+<p><span class="build">Build 220121-2b4c8e1f</span></p>
+<p>We've generated missing translations with the help of DeepL and Google Translate. Native speakers are
+invited to help us improve those if needed. <a href="../developer-guide/translations/">Learn how to contribute</a>.</p>
+<ul>
+<li><a href="https://github.com/photoprism/photoprism/discussions/1921#discussioncomment-2005493">Minimum memory requirements have been reduced to 3 GB</a></li>
+<li>Photos: <a href="https://github.com/photoprism/photoprism/issues/1961">Fixed buttons in full screen view</a></li>
+<li>People: <a href="https://github.com/photoprism/photoprism/issues/1957">Fixed typo that prevented face matching optimization</a></li>
+<li>Moments: <a href="https://github.com/photoprism/photoprism/issues/1953">Improved update performance on MariaDB</a></li>
+<li>Translations: <a href="https://github.com/photoprism/photoprism/commit/f7b82f616d73ed2f61e0195e31d5029ca1bda3b6">Pre-translated missing UI messages</a></li>
+</ul>
+<h3 id="january-18-2022">January 18, 2022<a class="headerlink" href="#january-18-2022" title="Permanent link">&para;</a></h3>
+<p><span class="build">Build 220118-76c94a1f</span></p>
+<ul>
+<li>Auth: <a href="https://github.com/photoprism/photoprism/issues/1901">Logout redirects to base URI instead of site root</a></li>
+<li>Videos: <a href="https://github.com/photoprism/photoprism/commit/4d8292a9c3e357dc8d956a13ee9d6faa34b69119">Excluded streaming from gzip compression</a></li>
+<li>Videos: <a href="https://github.com/photoprism/photoprism/issues/1648">Fixed Content-Type header and streaming in Safari</a></li>
+<li>Folders: <a href="https://github.com/photoprism/photoprism/issues/1930">Fixed search query string substitutions and sanitation</a></li>
+<li>UI: <a href="https://try.photoprism.app/about">Updated information and links in <em>Settings</em> &gt; <em>About</em></a></li>
+<li>UI: <a href="https://github.com/photoprism/photoprism/commit/03457bdb755b7cfb088a72f564119fb8e7a46ec2">Improved bootstrap template rendering performance</a></li>
+</ul>
+<h3 id="january-7-2022">January 7, 2022<a class="headerlink" href="#january-7-2022" title="Permanent link">&para;</a></h3>
+<p><span class="build">Build 220107-f5b7ef83</span></p>
+<p>Based on our zero bug policy, this update focuses on bug fixes, security, and UX improvements for search 
+filters, metadata, and the indexer. In addition, one of the merged pull requests may improve face recognition 
+performance on smaller devices and with large libraries.</p>
+<ul>
+<li>People: <a href="https://github.com/photoprism/photoprism/pull/1804">Improved update performance on MariaDB</a></li>
+<li>People: <a href="https://github.com/photoprism/photoprism/issues/1824">Improved contrast of person selection menu</a></li>
+<li>Albums: <a href="https://github.com/photoprism/photoprism/issues/1836">Private pictures are excluded from download as zip</a></li>
+<li>Search: <a href="https://github.com/photoprism/photoprism/issues/1814">Improved query parser for additional security</a></li>
+<li>Search: <a href="https://github.com/photoprism/photoprism/issues/1820">Added <code>uid:...</code> search filter to find photos by uid</a></li>
+<li>Search: <a href="https://github.com/photoprism/photoprism/issues/1859"><code>keywords:...</code> filter does not exclude stopwords anymore</a></li>
+<li>Index: <a href="https://github.com/photoprism/photoprism/issues/1892">Original filenames can be extracted from Exiftool JSON</a></li>
+<li>Index: <a href="https://github.com/photoprism/photoprism/issues/1823">More accurate and resilient handling of related files and photo stacks</a></li>
+<li>Live Photos: <a href="https://github.com/photoprism/photoprism/issues/926">HEIF is used to create primary JPEG instead of a MOV still image</a></li>
+<li>Metadata: <a href="https://github.com/photoprism/photoprism/commit/5462b1e69eddccedbf0259263aba04b68cf8044c">Reduced log level for missing Exif data from warn to info</a></li>
+<li>Metadata: <a href="https://github.com/photoprism/photoprism/issues/1830">Increased size of projection and color profile fields to 40 characters</a></li>
+<li>Backups: <a href="https://github.com/photoprism/photoprism/issues/1887">Improved help for config options and CLI commands</a></li>
+<li>Help: <a href="https://github.com/photoprism/photoprism/pull/1870">Fixed reverse proxy documentation links</a></li>
+<li>Config: <a href="https://github.com/photoprism/photoprism/pull/1843">Added Apple Video Toolbox hardware transcoding support for macOS</a></li>
+<li>Config: <a href="https://github.com/photoprism/photoprism/issues/1821">Added <code>/opt/photoprism</code> to search path for asset and storage folders</a></li>
+</ul>
+<h3 id="december-15-2021">December 15, 2021<a class="headerlink" href="#december-15-2021" title="Permanent link">&para;</a></h3>
+<p><span class="build">Build 211215-93b26f19</span></p>
+<p>PhotoPrism is not directly affected by the <a href="https://blog.malwarebytes.com/exploits-and-vulnerabilities/2021/12/log4j-zero-day-log4shell-arrives-just-in-time-to-ruin-your-weekend/">Apache Log4j</a> vulnerability.
+Logs may still contain messages that can cause harm if consumed by an unpatched Java application.
+As a precaution, this release includes additional <a href="https://github.com/photoprism/photoprism/issues/1814">rules and filters to validate user input</a>.</p>
+<ul>
+<li>Sharing: <a href="https://github.com/photoprism/photoprism/issues/1617">Fixed album link redirect on shared domains</a></li>
+<li>Import: <a href="https://github.com/photoprism/photoprism/issues/1810">More helpful warning when another import is already running</a></li>
+<li>Docker: <a href="https://github.com/photoprism/photoprism/issues/1815">ARMv7 image for 32-bit processors and operating systems</a></li>
+</ul>
+<h3 id="december-10-2021">December 10, 2021<a class="headerlink" href="#december-10-2021" title="Permanent link">&para;</a></h3>
+<p><span class="build">Build 211210-2cb90e7e</span></p>
+<p>Starting with this release, the <a href="https://hub.docker.com/r/photoprism/photoprism/tags?name=latest">regular multi-arch Docker image</a> is 64-bit only. 
+A 32-bit version of our stable release for <a href="../getting-started/raspberry-pi/#older-armv7-based-devices">older devices</a> 
+is offered separately. This frees up development and infrastructure resources with minimal impact.</p>
+<ul>
+<li><a href="https://groups.google.com/g/golang-announce/c/hcmEScgc00k">Based on Go version 1.17.5, which includes important HTTP/2 and network security fixes</a></li>
+<li>People: <a href="https://github.com/photoprism/photoprism/commit/1b583e071e80b68352b1b366d60e010d8f8f9535">Concurrent updates are no longer possible to prevent inconsistencies</a></li>
+<li>Places: <a href="https://github.com/photoprism/photoprism/commit/4e358bbfd488eda86efa3265a6c443be0ae8f038">Additional logs to detect invalid GPS coordinates in metadata</a></li>
+<li>SQLite: <a href="https://github.com/photoprism/photoprism/discussions/1791">Reduced routine maintenance log levels and fixed migration warnings</a></li>
+<li>Thumbnails: <a href="https://github.com/photoprism/photoprism/issues/1798">Apple Display P3 profile support for more accurate colors</a></li>
+<li>Translations: <a href="https://github.com/photoprism/photoprism/pull/1799">Updated French</a></li>
+</ul>
+<h3 id="december-3-2021">December 3, 2021<a class="headerlink" href="#december-3-2021" title="Permanent link">&para;</a></h3>
+<p><span class="build">Build 211203-fdb6b5e1</span></p>
+<p>Since the <a href="https://link.photoprism.app/sponsor">funding goal</a> required to make all features and maps generally
+available has not been reached, <em>early-access features</em> have been renamed to <em>sponsor features</em> in this update.
+Offline and high-resolution street maps remain free for everyone, while hybrid, topographic, and outdoor maps are 
+now a sponsor feature. We believe this is fair. A big thank you to all our <a href="https://link.photoprism.app/sponsors">sponsors</a>
+and <a href="https://github.com/photoprism/photoprism/graphs/contributors/">contributors</a>!</p>
+<ul>
+<li>CLI: <a href="https://github.com/photoprism/photoprism/issues/1778">Improved parameter</a> and <a href="https://github.com/photoprism/photoprism/issues/1735">command descriptions</a></li>
+<li>CLI: <a href="https://github.com/photoprism/photoprism/issues/1787">Reset command optionally also deletes files in the cache folder</a></li>
+<li>Config: <a href="https://dl.photoprism.app/docker/">Improved <code>docker-compose.yml</code> examples</a></li>
+</ul>
+<h3 id="november-30-2021">November 30, 2021<a class="headerlink" href="#november-30-2021" title="Permanent link">&para;</a></h3>
+<p><span class="build">Build 211130-13cfcf6d</span></p>
+<ul>
+<li>Videos: <a href="https://github.com/photoprism/photoprism/issues/1761">Live photos page has been added to the sub-navigation</a></li>
+<li>Albums: <a href="https://github.com/photoprism/photoprism/issues/1777">Manually created albums are sorted by name, with favorites first</a></li>
+<li>Places: <a href="https://github.com/photoprism/photoprism/issues/1767">Improved location details in border regions</a> and <a href="https://github.com/photoprism/photoprism/issues/1776">near Paris</a></li>
+<li>PWA: <a href="https://github.com/photoprism/photoprism/tree/develop/assets/static/icons">Updated app icons, style is now also applied to the user interface</a></li>
+</ul>
+<p><em>For our <a href="https://link.photoprism.app/patreon">sponsors</a> and <a href="https://docs.photoprism.app/developer-guide/">contributors</a>:</em></p>
+<ul>
+<li>UI: New <em>Abyss</em> and <em>Gemstone</em> dark themes 💎</li>
+</ul>
+<h3 id="november-28-2021">November 28, 2021<a class="headerlink" href="#november-28-2021" title="Permanent link">&para;</a></h3>
+<p><span class="build">Build 211128-7e8974fd</span></p>
+<p>Official support for MySQL 8 is discontinued with this update as Oracle seems to have stopped shipping <a href="https://github.com/photoprism/photoprism/issues/1764">new features and improvements</a>.
+As a result, the testing effort required before each release is no longer feasible. We recommend <a href="https://docs.photoprism.app/getting-started/troubleshooting/#version-upgrade">upgrading</a>
+to <a href="https://mariadb.com/kb/en/function-differences-between-mariadb-106-and-mysql-80/">MariaDB 10.6</a> or later.
+PostgreSQL support is <a href="https://github.com/photoprism/photoprism/issues/47">planned for 2022</a> without a specific release date yet.</p>
+<ul>
+<li>CLI: <a href="https://github.com/photoprism/photoprism/commit/7e8974fd20fcbf3ec403541125599deaeb1ee353"><code>photoprism migrations run --failed</code> will re-run previously failed migrations</a></li>
+</ul>
+<h3 id="november-27-2021">November 27, 2021<a class="headerlink" href="#november-27-2021" title="Permanent link">&para;</a></h3>
+<p><span class="build">Build 211127-86c43159</span></p>
+<p>When possible, location estimates now include a latitude and longitude. Photos load faster when you open 
+them in <em>Places</em>, and the viewer sorts them by distance. Time zone handling has been completely reworked, 
+in particular for UTC. The Docker base image has been upgraded to Ubuntu 21.10, which ships with 
+Darktable 3.6 among other updated dependencies. </p>
+<ul>
+<li>UX: Redesigned <a href="https://github.com/photoprism/photoprism/commit/293fa0ca784ae19998cc8ff3459883a137fff4c2">splash screen</a> based on theme colors</li>
+<li>Places: <a href="https://try.photoprism.app/places">Viewer loads faster and sorts photos by distance instead of date</a></li>
+<li>Places: <a href="https://github.com/photoprism/photoprism/issues/1736">Less frequent estimates to reduce background activity</a></li>
+<li>Places: <a href="https://github.com/photoprism/photoprism/issues/1664">Normalized names of states, oceans, and lakes</a></li>
+<li>Places: <a href="https://www.openstreetmap.org/">Updated location data from OpenStreetMap</a></li>
+<li>Places: <a href="https://github.com/photoprism/photoprism/issues/1608">State albums are grouped by country name</a></li>
+<li>Folders: <a href="https://github.com/photoprism/photoprism/issues/1737">Path names are searched in addition to titles</a></li>
+<li>People: <a href="https://github.com/esimov/pigo/releases/tag/v1.4.5">Improved face detection performance</a></li>
+<li>People: <a href="https://github.com/photoprism/photoprism/issues/1710">Fixed naming faces in non-primary files</a></li>
+<li>People: <a href="https://github.com/photoprism/photoprism/issues/1587">Optimized matching of children's faces</a></li>
+<li>RAW: <a href="https://github.com/photoprism/photoprism/issues/1632">Upgraded Darktable to 3.6.0</a></li>
+<li>Metadata: <a href="https://github.com/photoprism/photoprism/issues/1668">Improved estimates and UTC time zone handling</a></li>
+<li>Metadata: <a href="https://github.com/photoprism/photoprism/issues/1749">Altitude is indexed even if coordinates are missing</a></li>
+<li>Auth: <a href="https://github.com/photoprism/photoprism/commit/a354a170418371384ae047aef2bf49888e444dc5">Usernames are not case-sensitive anymore</a></li>
+<li>CLI: <a href="https://github.com/photoprism/photoprism/commit/04cde0f39254c7eff04b3e481ebdca4ead747b16">Added <code>--force</code> flag to <code>photoprism optimize</code> command</a></li>
+<li>CLI: <a href="https://github.com/photoprism/photoprism/commit/9da2e92fb603057cf7e2e596391e88db161d2bbc">Improved parameter and command descriptions</a></li>
+<li>Config: <a href="https://dl.photoprism.app/docker/">Improved <code>docker-compose.yml</code> examples</a></li>
+<li>Translations: Added <a href="https://github.com/photoprism/photoprism/issues/1689">Bahasa Indonesia</a> and <a href="https://github.com/photoprism/photoprism/pull/1751">Hungarian</a></li>
+<li>Translations: Updated <a href="https://github.com/photoprism/photoprism/pull/1674">Polish</a> and <a href="https://github.com/photoprism/photoprism/pull/1706">Italian</a></li>
+</ul>
+<p><em>For our <a href="https://link.photoprism.app/patreon">sponsors</a> and <a href="https://docs.photoprism.app/developer-guide/">contributors</a>:</em></p>
+<ul>
+<li>CLI: <a href="https://docs.photoprism.app/getting-started/docker-compose/#command-line-interface">Run <code>photoprism places update</code> to retrieve updated location details</a></li>
+<li>Config: <a href="../getting-started/config-options/">Set <code>PHOTOPRISM_APP_ICON</code> to choose an alternative PWA icon</a></li>
+</ul>
+<h3 id="october-18-2021">October 18, 2021<a class="headerlink" href="#october-18-2021" title="Permanent link">&para;</a></h3>
+<p><span class="build">Build 211018-e200f322</span></p>
+<ul>
+<li>UI: <a href="https://github.com/photoprism/photoprism/commit/1efdf1c1a3690fa22658bc42786aa6b1fff217e4">Updated <em>Lavender</em> theme</a></li>
+<li>Places: <a href="https://github.com/photoprism/photoprism/commit/e200f322be07f6ada9cd88902ba65372c69f0364">Fixed maps initialization after reload in non-public mode</a></li>
+<li>Search: <a href="https://github.com/photoprism/photoprism/commit/25a954d56821108369cc1a397f1b0a7a3a22c504">Added <code>live</code> and <code>raw:true</code> filters as alternative to <code>type:…</code></a></li>
+<li>Search: <a href="https://docs.photoprism.app/user-guide/organize/people/#recognized-new-people">Added <code>faces:new</code> alias for <code>face:new</code></a></li>
+<li>Config: <a href="https://github.com/photoprism/photoprism/issues/1618">Maximum background worker interval has been increased to 7 days</a></li>
+<li>Security: <a href="https://github.com/photoprism/photoprism/commit/2ddb1d6daaab847cd95f38aaa2f9293f35023f9a">Added <code>Content-Security-Policy</code> header to prevent framing attacks</a></li>
+<li>Translations: Updated <a href="https://github.com/photoprism/photoprism/pull/1622">Russian</a> and <a href="https://github.com/photoprism/photoprism/pull/1620">Slovak</a></li>
+</ul>
+<p><em>For our <a href="https://link.photoprism.app/patreon">sponsors</a> and <a href="https://docs.photoprism.app/developer-guide/">contributors</a>:</em></p>
+<ul>
+<li>UI: New <em>Vanta</em> dark theme ✨</li>
+</ul>
+<h3 id="october-10-2021">October 10, 2021<a class="headerlink" href="#october-10-2021" title="Permanent link">&para;</a></h3>
+<p><span class="build">Build 211010-83b4f783</span></p>
+<ul>
+<li>Translations: <a href="https://github.com/photoprism/photoprism/blob/fa57db7aa43fa03eef7a738122e15a98af574713/frontend/src/locales/de.po#L494">Fixed German frontend typo</a></li>
+<li>Translations: <a href="https://github.com/photoprism/photoprism/tree/develop/assets/locales">Updated all backend locales</a></li>
+</ul>
+<p><em>We've generated missing translations with the help of DeepL and Google Translate. Native speakers are 
+invited to help us improve those if needed. <a href="../developer-guide/translations/">Learn how to contribute</a>.</em></p>
+<h3 id="october-9-2021">October 9, 2021<a class="headerlink" href="#october-9-2021" title="Permanent link">&para;</a></h3>
+<p><span class="build">Build 211009-d6cc8df5`</span></p>
+<ul>
+<li>UX: <a href="https://github.com/photoprism/photoprism/commit/67d06fd647a7bf4fcf2c3e487a590b6597111d08">Improved wording of search result notifications</a></li>
+<li>UX: <a href="https://github.com/photoprism/photoprism/issues/1175">Fixed sidebar navigation on small screens</a></li>
+<li>Users: <a href="https://github.com/photoprism/photoprism/commit/d6cc8df531dbc17ffc6f55bc259bb45c8ea60011">Show name and email in sidebar navigation</a></li>
+<li>Folders: <a href="https://github.com/photoprism/photoprism/issues/1609">Directory names listed in .ppignore are ignored</a></li>
+<li>Config: <a href="https://github.com/photoprism/photoprism/issues/1611">Allows bypassing low memory suggestion</a></li>
+<li>Docs: <a href="https://github.com/photoprism/photoprism/commit/1cc8cb7ad42bcd847a03a3bba52ad265b0f3fce2">Updated about page</a></li>
+<li>Translations: <a href="https://github.com/photoprism/photoprism/tree/develop/frontend/src/locales">Updated all frontend locales</a></li>
+</ul>
+<h3 id="october-7-2021">October 7, 2021<a class="headerlink" href="#october-7-2021" title="Permanent link">&para;</a></h3>
+<p><span class="build">Build 211007-8f55d6f8</span></p>
+<ul>
+<li>People: <a href="https://github.com/photoprism/photoprism/issues/1576">Improved stability and performance of new faces overview page</a></li>
+<li>Index: <a href="https://github.com/photoprism/photoprism/commit/f7153cdd219d487733a7a3a8809b333bdace6294">Duplicate error logs caused by broken JPEG files have been removed</a></li>
+<li>UX: <a href="https://github.com/photoprism/photoprism/commit/6cd5ee6d9b53aed74d92c46ccb29f78adf11811a">Enhanced visibility of file errors in the edit dialog files tab</a></li>
+<li>CLI: <a href="https://github.com/photoprism/photoprism/search?q=cli+help&amp;type=commits">Revised descriptions of commands and configuration flags</a></li>
+</ul>
+<p><em>For our <a href="https://link.photoprism.app/patreon">sponsors</a> and <a href="https://docs.photoprism.app/developer-guide/">contributors</a>:</em></p>
+<ul>
+<li>People: <a href="https://github.com/photoprism/photoprism/issues/1554">Recognized faces can be hidden on the overview page</a> </li>
+</ul>
+<h3 id="october-2-2021">October 2, 2021<a class="headerlink" href="#october-2-2021" title="Permanent link">&para;</a></h3>
+<p><span class="build">Build 211002-bf015326</span></p>
+<ul>
+<li>People: <a href="https://github.com/photoprism/photoprism/issues/1557">Enhanced UI / UX for renaming and merging faces</a></li>
+<li>People: <a href="https://github.com/photoprism/photoprism/commit/582a3308375b8a2aaf5ca578d3c2e7d9081b580d">Improved face detection accuracy</a></li>
+<li>Labels: <a href="https://github.com/photoprism/photoprism/issues/584">Improved photo count accuracy</a></li>
+<li>Covers: <a href="https://github.com/photoprism/photoprism/issues/383">Thumbnails load and update faster</a></li>
+<li>Search: <a href="https://github.com/photoprism/photoprism/issues/1560">Finds titles when query is too short for full-text index</a></li>
+<li>Search: <a href="https://github.com/photoprism/photoprism/commit/39dc5cb777fbcb5b433430836373d136c6c5ec08"><code>name:…</code> filter ignores path and extension</a></li>
+<li>Videos: <a href="https://github.com/photoprism/photoprism/issues/1337">Optional Intel GPU hardware transcoding support</a></li>
+<li>Index: <a href="https://github.com/photoprism/photoprism/issues/1559">Automatic cleanup of orphaned file entries</a></li>
+<li>Logs: <a href="https://github.com/photoprism/photoprism/commit/9a88d7fc6acf2ad5e7cfa215c78ccae39ccbb7ed">Updated log messages for improved readability</a></li>
+<li>Translations: <a href="https://github.com/photoprism/photoprism/tree/develop/frontend/src/locales">Updated German and French</a></li>
+<li>Docker: <a href="https://github.com/photoprism/photoprism/issues/1337">Simplified installation of TensorFlow with AVX / AVX2 support</a></li>
+<li>Docker: <a href="https://github.com/photoprism/photoprism/issues/1545#issuecomment-929511730">Entrypoint script uses prefixed environment variables, <code>UID</code> and <code>GID</code> are deprecated</a></li>
+</ul>
+<h3 id="september-25-2021">September 25, 2021<a class="headerlink" href="#september-25-2021" title="Permanent link">&para;</a></h3>
+<p><span class="build">Build 210925-96168e4b</span></p>
+<ul>
+<li><a href="https://github.com/photoprism/photoprism/issues/22">Recognizes faces so that specific people can be found</a></li>
+<li>UX: <a href="https://github.com/photoprism/photoprism/search?o=desc&amp;q=UX&amp;s=committer-date&amp;type=commits">Improved UI design, navigation, and wording</a></li>
+<li>Search: <a href="https://github.com/photoprism/photoprism/issues/1517">Omit full-text index if query is too short</a></li>
+<li>Search: <a href="https://github.com/photoprism/photoprism/issues/882">Added <code>keywords:…</code>, <code>subjects:…</code>, and <code>albums:…</code> filters</a></li>
+<li>Places: <a href="https://github.com/photoprism/photoprism/issues/1391">Internationalized maps incl RTL support</a></li>
+<li>Labels: <a href="https://github.com/photoprism/photoprism/issues/584">Added photo counts to overview page</a> </li>
+<li>Albums: <a href="https://github.com/photoprism/photoprism/issues/621">Fixed share expiration date in form label</a></li>
+<li>Calendar: <a href="https://github.com/photoprism/photoprism/issues/1456">Empty month albums are hidden</a></li>
+<li>Viewer: <a href="https://github.com/photoprism/photoprism/issues/1343">Photos will be updated when search filters change</a></li>
+<li>Index: <a href="https://github.com/photoprism/photoprism/issues/1543">Ignore Synology <code>@eaDir</code> folders</a></li>
+<li>Import: <a href="https://github.com/photoprism/photoprism/issues/1348">Ignore dot files listed in <code>.ppignore</code></a></li>
+<li>Upload: <a href="https://github.com/photoprism/photoprism/issues/1486">Added more detailed error logs</a></li>
+<li>Videos: <a href="https://github.com/photoprism/photoprism/issues/1436">Skip related images when downloading</a></li>
+<li>Videos: <a href="https://github.com/photoprism/photoprism/issues/1501">Added .mp as known MP4 file extension</a></li>
+<li>Videos: <a href="https://github.com/photoprism/photoprism/issues/1388">Default to UTC as metadata time zone</a></li>
+<li>Exiftool: <a href="https://github.com/photoprism/photoprism/issues/1401">Enabled large file support</a></li>
+<li>Metadata: <a href="https://github.com/photoprism/photoprism/issues/1326">Improved Exif parser with cycle detection</a></li>
+<li>Metadata: <a href="https://github.com/photoprism/photoprism/issues/1508">Support for long projection type names like transverse-cylindrical</a></li>
+<li>Config: <a href="https://github.com/photoprism/photoprism/issues/1362">Added RAW file extension blacklists for Darktable and RawTherapee</a></li>
+<li>Config: <a href="https://docs.photoprism.app/getting-started/config-options/">Added disable options for image classification and facial recognition</a></li>
+<li>Config: <a href="https://github.com/photoprism/photoprism/issues/425">Added support for non-root site URLs</a></li>
+<li>Config: <a href="https://github.com/photoprism/photoprism/issues/1351">Added content delivery network URL option</a></li>
+<li>MariaDB: <a href="https://github.com/photoprism/photoprism/issues/1371">Set explicit table engine, charset, and collation</a></li>
+<li>MariaDB: <a href="https://github.com/photoprism/photoprism/issues/1544">Added log message for old versions with broken table name resolution</a></li>
+<li>Docker: <a href="https://github.com/photoprism/photoprism/issues/1525">Added <code>HOME</code> env for Darktable &amp; RawTherapee</a></li>
+<li>Docker: <a href="https://github.com/photoprism/photoprism/issues/1158">Single multi-arch image for AMD64, ARM64, and ARMv7</a></li>
+</ul>
+<h3 id="may-23-2021">May 23, 2021<a class="headerlink" href="#may-23-2021" title="Permanent link">&para;</a></h3>
+<p><span class="build">Build 210523-b1856b9d</span></p>
+<ul>
+<li>RAW: <a href="https://github.com/photoprism/photoprism/issues/1267">Added RawTherapee flag to use existing sidecar files</a></li>
+<li>Import: <a href="https://github.com/photoprism/photoprism/issues/1319">Never remove ignored folders such as for Syncthing</a></li>
+</ul>
+<h3 id="may-20-2021">May 20, 2021<a class="headerlink" href="#may-20-2021" title="Permanent link">&para;</a></h3>
+<p><span class="build">Build 210520-4b32bac7</span></p>
+<ul>
+<li>Docker: <a href="https://github.com/photoprism/photoprism/issues/1301">Fixed home directory permissions in new base image</a></li>
+<li>HEIF: <a href="https://github.com/photoprism/photoprism/blob/develop/docker/scripts/heif-convert.sh">Test if JPEG was already rotated based on video metadata</a></li>
+</ul>
+<h3 id="may-19-2021">May 19, 2021<a class="headerlink" href="#may-19-2021" title="Permanent link">&para;</a></h3>
+<p><span class="build">Build 210519-24b5c7e6</span></p>
+<ul>
+<li>Metadata: <a href="https://github.com/photoprism/photoprism/issues/1302">Upgraded Exiftool to fix security issue</a></li>
+</ul>
+<h3 id="may-18-2021">May 18, 2021<a class="headerlink" href="#may-18-2021" title="Permanent link">&para;</a></h3>
+<p><span class="build">Build 210518-80981c25</span></p>
+<ul>
+<li>Safari: <a href="https://github.com/photoprism/photoprism/issues/895">Fixed PWA file download on iOS</a></li>
+<li>Docker: <a href="https://dl.photoprism.app/docker/scheduler/">Added config example for scheduled background tasks</a></li>
+<li>Docker: <a href="https://github.com/photoprism/photoprism/commit/77ddcecf29c95e1b33ba11046fd002ed3d408382">Updated base image includes Darktable 3.4.1, RawTherapee 5.8, and FFmpeg 4.3.2</a></li>
+<li>TensorFlow: <a href="https://github.com/photoprism/photoprism/issues/1270">Improved error handling</a></li>
+<li>Translations: <a href="https://github.com/photoprism/photoprism/pull/1286">Updated French</a></li>
+</ul>
+<h3 id="may-5-2021">May 5, 2021<a class="headerlink" href="#may-5-2021" title="Permanent link">&para;</a></h3>
+<p><span class="build">Build 210505-d3e53a89</span></p>
+<ul>
+<li>UI: <a href="https://github.com/photoprism/photoprism/pull/1220">Improved RTL (right-to-left language) alignment</a></li>
+<li>RAW: <a href="https://github.com/photoprism/photoprism/issues/1245">Added config options to disable specific converters</a></li>
+<li>Metadata: <a href="https://github.com/photoprism/photoprism/issues/1153">Preserve stopwords in existing keywords</a></li>
+<li>Metadata: <a href="https://github.com/photoprism/photoprism/issues/1196">Allow single quotes in keywords</a></li>
+<li>WebDAV: <a href="https://github.com/photoprism/photoprism/issues/1210">Keep favorite flag when uploading via PhotoSync</a></li>
+<li>Translations: Updated <a href="https://github.com/photoprism/photoprism/pull/1247">Dutch</a>
+  and <a href="https://github.com/photoprism/photoprism/commit/c9795495ee5b2a57be8ddcdb16ca29cfab018bb4">German</a></li>
+</ul>
+<h3 id="april-26-2021">April 26, 2021<a class="headerlink" href="#april-26-2021" title="Permanent link">&para;</a></h3>
+<p><span class="build">Build 210426-da6e948f</span></p>
+<ul>
+<li>UI: <a href="https://github.com/photoprism/photoprism/commit/180e46b95f52a5ef2d67ea8ac5e1d8a9b08ef970">Added Yellowstone theme for sponsors, unlocked Grayscale theme for everyone</a></li>
+<li>Metadata: <a href="https://github.com/photoprism/photoprism/issues/1151">Support for XMP sidecar CreateDate and Keywords</a></li>
+<li>Metadata: <a href="https://github.com/photoprism/photoprism/issues/1153">Merge keywords from different sources</a></li>
+<li>Translations: Updated <a href="https://github.com/photoprism/photoprism/pull/1221">Hebrew</a></li>
+</ul>
+<h3 id="april-22-2021">April 22, 2021<a class="headerlink" href="#april-22-2021" title="Permanent link">&para;</a></h3>
+<p><span class="build">Build 210422-97e75b04</span></p>
+<ul>
+<li>UX: <a href="https://github.com/photoprism/photoprism/issues/1048">Improved touch event accuracy</a></li>
+<li>UX: <a href="https://github.com/photoprism/photoprism/commit/b07ba63108dace2a8d5b2df18a06647252a36272">Optimized rendering on small screens</a></li>
+<li>UX: <a href="https://github.com/photoprism/photoprism/issues/1130">Fixed autocomplete in "add to album" dialog</a></li>
+<li>HEIF: <a href="https://github.com/photoprism/photoprism/issues/1200">Prevent redundant sidecar JPEG files</a></li>
+<li>Backup: <a href="https://github.com/photoprism/photoprism/issues/1190">Added command flags and usage docs</a></li>
+<li>Translations: Added <a href="https://github.com/photoprism/photoprism/commits?author=tcarlsen">Danish</a> 
+  and <a href="https://github.com/photoprism/photoprism/commits?author=Hrazhan">Kurdish</a></li>
+</ul>
+<h3 id="february-22-2021">February 22, 2021<a class="headerlink" href="#february-22-2021" title="Permanent link">&para;</a></h3>
+<p><span class="build">Build 210222-ac5a9d5e</span></p>
+<ul>
+<li>UX: <a href="https://github.com/photoprism/photoprism/issues/1078">Autofocus for input fields and confirm on enter</a></li>
+<li>Restore: <a href="https://github.com/photoprism/photoprism/commit/32ef03083d9414e0ab1f52bbb3837251e0438689">Find YAML album backups in originals folder</a></li>
+<li>Metadata: <a href="https://github.com/photoprism/photoprism/commit/d42eb4e01b8844d46f7332e1b8d8dc7a18e41a14">Improved location labels and moments</a></li>
+<li>Thumbnails: <a href="https://github.com/photoprism/photoprism/issues/1064">Fixed auto-rotation for HEIF, TIFF, and PNG images</a></li>
+<li>Translations: <a href="https://github.com/photoprism/photoprism/pull/1079">Added Norwegian (Bokmål)</a></li>
+</ul>
+<h3 id="february-17-2021">February 17, 2021<a class="headerlink" href="#february-17-2021" title="Permanent link">&para;</a></h3>
+<p><span class="build">Build 210217-49039368</span></p>
+<ul>
+<li>Videos: <a href="https://github.com/photoprism/photoprism/issues/703">Optimized transcoding parameters</a></li>
+<li>Videos: <a href="https://github.com/photoprism/photoprism/issues/1061">Use AAC audio for MP4 transcoding</a>  </li>
+<li>Metadata: <a href="https://github.com/photoprism/photoprism/issues/1052">Default to landscape orientation if data is invalid</a></li>
+<li>Translations: <a href="https://github.com/photoprism/photoprism/pull/1053">Updated Brazilian Portuguese</a></li>
+</ul>
+<h3 id="february-16-2021">February 16, 2021<a class="headerlink" href="#february-16-2021" title="Permanent link">&para;</a></h3>
+<p><span class="build">Build 210216-4939e36a</span></p>
+<ul>
+<li>UX: Automatically hide scrollbar in photo viewer and Places</li>
+<li>Delete: <a href="https://github.com/photoprism/photoprism/issues/167#issuecomment-779179817">Permanently remove all related sidecar files</a></li>
+<li>Videos: <a href="https://github.com/photoprism/photoprism/issues/703">Added transcoding config options</a></li>
+<li>Videos: <a href="https://github.com/photoprism/photoprism/issues/703">Added batch transcoding via convert command</a></li>
+<li>Metadata: <a href="https://github.com/photoprism/photoprism/issues/1018">Remove estimate when setting a new country</a></li>
+<li>Metadata: <a href="https://github.com/dsoprea/go-exif/issues/55">Workaround for Exif strings containing newlines</a></li>
+</ul>
+<h3 id="february-11-2021">February 11, 2021<a class="headerlink" href="#february-11-2021" title="Permanent link">&para;</a></h3>
+<p><span class="build">Build 210211-b9595dd4</span></p>
+<ul>
+<li>Videos: <a href="https://github.com/photoprism/photoprism/issues/915">Native player featuring performance and UX improvements</a></li>
+<li>Index: <a href="https://github.com/photoprism/photoprism/issues/1010">Improved detection of missing photos, files, and folders</a></li>
+</ul>
+<h3 id="february-8-2021">February 8, 2021<a class="headerlink" href="#february-8-2021" title="Permanent link">&para;</a></h3>
+<p><span class="build">Build 210208-9e10ba69</span></p>
+<ul>
+<li>Upload: <a href="https://github.com/photoprism/photoprism/issues/991">Adds duplicates to selected albums as well</a></li>
+<li>Library: <a href="https://github.com/photoprism/photoprism/issues/1011">Show folder covers in Originals</a></li>
+<li>Metadata: <a href="https://github.com/photoprism/photoprism/issues/982">Automatically remove orphan countries, cameras, and lenses</a></li>
+<li>Metadata: <a href="https://github.com/photoprism/photoprism/issues/990">Improved Exif parser</a></li>
+<li>Backup: <a href="https://github.com/photoprism/photoprism/issues/912">Restore archive flag from YAML files</a></li>
+<li>Docker: <a href="https://github.com/photoprism/photoprism/issues/1000">Improved entrypoint script</a></li>
+</ul>
+<h3 id="january-28-2021">January 28, 2021<a class="headerlink" href="#january-28-2021" title="Permanent link">&para;</a></h3>
+<p><span class="build">Build 210128-a82061e0</span></p>
+<ul>
+<li>UX: Improved theme colors and icons</li>
+<li>UX: Download all related media files using their current name by default</li>
+<li>UX: Redirect already authenticated users from /login to /browse</li>
+<li>Mobile: <a href="https://github.com/photoprism/photoprism/issues/953">Prevent like on touch swipe</a></li>
+<li>Translations: Updated German and French</li>
+<li>Config: Reduced auto index &amp; import safety delay defaults</li>
+<li>Metadata: <a href="https://github.com/photoprism/photoprism/commit/57dc591b124b071cb943cca8c11e98824b65cefc">Improved photo titles, removed small words from title endings</a></li>
+<li>Metadata: Improved date extraction from current and original file names</li>
+<li>Metadata: <a href="https://github.com/photoprism/photoprism/issues/930">Fallback to earliest file mod time in case there is no other date</a></li>
+<li>Import: <a href="https://github.com/photoprism/photoprism/issues/920">Index keywords from non-primary filenames as well</a></li>
+<li>WebDAV: <a href="https://github.com/photoprism/photoprism/issues/496">Improved service discovery</a></li>
+<li>Purge: <a href="https://github.com/photoprism/photoprism/issues/917">Hide missing files in edit dialog and set new primary if needed</a></li>
+<li>Archive: <a href="https://github.com/photoprism/photoprism/issues/167">Physically delete files after confirmation</a></li>
+<li>Moments: <a href="https://github.com/photoprism/photoprism/issues/942">Added delete button to context menu</a></li>
+<li>Settings: <a href="https://github.com/photoprism/photoprism/issues/954">Added Estimates and Delete feature flags</a></li>
+<li>CLI: Added cleanup command to remove orphaned index entries and thumbnails</li>
+</ul>
+<h3 id="january-21-2021">January 21, 2021<a class="headerlink" href="#january-21-2021" title="Permanent link">&para;</a></h3>
+<p><span class="build">Build 210121-07e559df</span></p>
+<ul>
+<li>UX: <a href="https://github.com/photoprism/photoprism/issues/935">Improved video playback and icons</a></li>
+<li>UX: <a href="https://github.com/photoprism/photoprism/issues/859">Restructured main navigation</a></li>
+<li>Mobile: <a href="https://github.com/photoprism/photoprism/issues/937">Show search field in albums</a></li>
+</ul>
+<h3 id="january-20-2021">January 20, 2021<a class="headerlink" href="#january-20-2021" title="Permanent link">&para;</a></h3>
+<p><span class="build">Build 210120-e7cd5e9a</span></p>
+<ul>
+<li>API: <a href="https://github.com/photoprism/photoprism/issues/890">Apply limit, offset and sort order when searching for IDs</a></li>
+<li>ARM64: <a href="https://github.com/photoprism/photoprism/issues/535#issuecomment-763210250">Reverted database image back to arm64v8/mariadb in config example</a></li>
+</ul>
+<h3 id="january-19-2021">January 19, 2021<a class="headerlink" href="#january-19-2021" title="Permanent link">&para;</a></h3>
+<p><span class="build">Build 210119-a5399f06</span></p>
+<ul>
+<li>UX: Optimized user interface for <a href="https://github.com/photoprism/photoprism/issues/832">iOS and tablets</a></li>
+<li>UX: Improved theme colors</li>
+<li>UX: <a href="https://github.com/photoprism/photoprism/issues/896">Scroll position is restored when navigating back</a></li>
+<li>Translations: Added <a href="https://github.com/photoprism/photoprism/issues/902">Czech</a></li>
+<li>Metadata: <a href="https://github.com/photoprism/photoprism/issues/914">Estimate timezone</a> 
+  and <a href="https://github.com/photoprism/photoprism/pull/918">allow overwriting estimated locations</a> </li>
+<li>Settings: <a href="https://github.com/photoprism/photoprism/issues/891">Fixed disabling logs</a></li>
+</ul>
+<p><em>For our <a href="https://link.photoprism.app/patreon">sponsors</a> and <a href="https://docs.photoprism.app/developer-guide/">contributors</a>:</em></p>
+<ul>
+<li>UX: Added two <a href="https://github.com/photoprism/photoprism/issues/700">dark themes</a></li>
+</ul>
+<h3 id="january-11-2021">January 11, 2021<a class="headerlink" href="#january-11-2021" title="Permanent link">&para;</a></h3>
+<p><span class="build">Build 210111-cc05c430</span></p>
+<ul>
+<li>UX: Disabled preloading in live photo player to reduce memory footprint</li>
+<li>UX: <a href="https://github.com/photoprism/photoprism/issues/859">Updated main navigation, find all media types via /browse</a></li>
+<li>UX: <a href="https://github.com/photoprism/photoprism/issues/477">Removed lag when selecting pictures</a></li>
+<li>UX: Tweaked tile size breakpoints in <em>Albums</em>, <em>Labels</em>, and <em>Search</em></li>
+<li>UX: <a href="https://github.com/photoprism/photoprism/issues/823">Added tooltips to navigation expand and minimize buttons</a></li>
+<li>UX: <a href="https://github.com/photoprism/photoprism/issues/500">Preload additional search results</a></li>
+<li>UX: <a href="https://github.com/photoprism/photoprism/issues/862">Removed image loading spinners for faster rendering</a></li>
+<li>Thumbnails: <a href="https://github.com/photoprism/photoprism/issues/822">Added cache control headers for improved performance</a></li>
+<li>Album Covers: <a href="https://github.com/photoprism/photoprism/issues/807">Cache will be flushed after updating private flags</a></li>
+<li>Search: <a href="https://github.com/photoprism/photoprism/commit/dcf94e26a53e2c3e78c9998f6e7b442fbbf3d544">Improved performance of photos query</a></li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps">PWA</a>: Added service worker so that app can be installed <a href="https://github.com/photoprism/photoprism/issues/852">more easily</a></li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps">PWA</a>: <a href="https://github.com/photoprism/photoprism/issues/744">Enabled auto-rotate</a>
+  so that photos may be viewed in landscape mode</li>
+<li>Frontend: Removed <a href="https://github.com/photoprism/photoprism/pull/824">unused dependencies</a> and 
+  <a href="https://github.com/photoprism/photoprism/pull/836">reduced build size</a></li>
+<li>Translations: Updated <a href="https://github.com/photoprism/photoprism/pull/837">Russian</a>, 
+  <a href="https://github.com/photoprism/photoprism/pull/849">French</a>,
+  <a href="https://github.com/photoprism/photoprism/commit/614f93f696c7a180ff8196a01d3a10881847d459">Simplified Chinese</a>, and
+  <a href="https://github.com/photoprism/photoprism/commit/e015e17f3f2b7d29d2d7d71518b9d8657daff99c">German</a></li>
+<li>Index: Automatically create <a href="https://github.com/photoprism/photoprism/issues/813">JPEGs for related media files</a> as well</li>
+<li>Import: Improved <a href="https://github.com/photoprism/photoprism/issues/261">error handling</a> when the file system becomes unavailable</li>
+<li>Config: <a href="https://dl.photoprism.app/docker/">Updated docker-compose.yml examples</a></li>
+<li>Config: <a href="../getting-started/config-options/">Added optional gzip compression for built-in web server</a></li>
+<li>Config: Limit number of indexing workers to half the number of physical cores by default to 
+  avoid <a href="https://twitter.com/miguelarios_/status/1347775696492503040">high load</a> on hyper-threading capable CPUs</li>
+</ul>
+<h3 id="january-4-2021">January 4, 2021<a class="headerlink" href="#january-4-2021" title="Permanent link">&para;</a></h3>
+<p><span class="build">Build 210104-7f9e806a</span></p>
+<ul>
+<li>Config: Added <a href="https://github.com/photoprism/photoprism/issues/281">auto index &amp; import</a> defaults to <a href="https://github.com/photoprism/photoprism/commit/1d9ade4c22bba01e03182b04d5b819e0ee6211a5">Dockerfiles</a></li>
+<li>Import: <a href="https://github.com/photoprism/photoprism/issues/810">Extract metadata with ExifTool before moving</a></li>
+<li>Import: Automatically create folder albums</li>
+<li>Help: Updated WebSocket page</li>
+<li>UX: Added <code>UI.Zoom</code> setting to <a href="https://github.com/photoprism/photoprism/issues/799">re-enable page zoom</a></li>
+<li>UI: Updated default theme</li>
+<li>Translations: Added Hebrew &amp; Japanese, updated Brazilian Portuguese</li>
+<li>Albums &amp; Cards View: Reduced tile size on large screens</li>
+<li>WebDAV: Less verbose logging</li>
+</ul>
+<h3 id="january-2-2021">January 2, 2021<a class="headerlink" href="#january-2-2021" title="Permanent link">&para;</a></h3>
+<p><span class="build">Build 210102-af71e5f7</span></p>
+<ul>
+<li>WebDAV: Uploads and other changes trigger <a href="https://github.com/photoprism/photoprism/issues/281">auto indexing / importing</a></li>
+<li>Config: Use random hash for improved preview token security </li>
+<li>UX: Disabled page zoom so that app feels more native on mobile devices</li>
+<li>UX: Reduced min password length to 4 characters</li>
+<li>UX: Improved <a href="https://dl.photoprism.app/docker/">docker-compose.yml examples</a></li>
+<li>UX: Reduced icon size in "add to album" dialog</li>
+</ul>
+<h3 id="december-31-2020">December 31, 2020<a class="headerlink" href="#december-31-2020" title="Permanent link">&para;</a></h3>
+<p><span class="build">Build 201231-8e22fbf8</span></p>
+<ul>
+<li>Initial Stable Release</li>
+</ul>
+
+              
+            </article>
+          </div>
+        </div>
+        
+          <a href="#" class="md-top md-icon" data-md-component="top" data-md-state="hidden">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12Z"/></svg>
+            Back to top
+          </a>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    <nav class="md-footer__inner md-grid" aria-label="Footer">
+      
+        
+        <a href="../user-guide/pwa/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Mobile App (PWA)" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              Mobile App (PWA)
+            </div>
+          </div>
+        </a>
+      
+      
+        
+        <a href="../user-guide/faq/" class="md-footer__link md-footer__link--next" aria-label="Next: FAQ" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              FAQ
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="footer-info">
+    PhotoPrism® is a <a href="https://photoprism.app/trademark" target="_blank">registered trademark</a>.
+    By using the software and services we provide, you agree to our
+    <a href="https://photoprism.app/terms" target="_blank">Terms of Service</a>,
+    <a href="https://photoprism.app/privacy" target="_blank">Privacy Policy</a>, and
+    <a href="https://photoprism.app/code-of-conduct" target="_blank">Code of Conduct</a>.
+    Docs are available under the <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> License; additional terms may apply.
+</div>
+
+<div class="md-copyright">
+    <div class="md-copyright__highlight" title="Made with ❤ in Berlin">
+        <a href="https://photoprism.app/contact">© 2018-2022 PhotoPrism UG</a>
+    </div>
+</div>
+      
+        <div class="md-social">
+  
+    
+    
+      
+      
+    
+    <a href="https://link.photoprism.app/github" target="_blank" rel="noopener" title="link.photoprism.app" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+    </a>
+  
+    
+    
+      
+      
+    
+    <a href="https://link.photoprism.app/patreon" target="_blank" rel="noopener" title="link.photoprism.app" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M512 194.8c0 101.3-82.4 183.8-183.8 183.8-101.7 0-184.4-82.4-184.4-183.8 0-101.6 82.7-184.3 184.4-184.3C429.6 10.5 512 93.2 512 194.8zM0 501.5h90v-491H0v491z"/></svg>
+    </a>
+  
+    
+    
+      
+      
+    
+    <a href="https://link.photoprism.app/chat" target="_blank" rel="noopener" title="link.photoprism.app" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 3c5.5 0 10 3.58 10 8s-4.5 8-10 8c-1.24 0-2.43-.18-3.53-.5C5.55 21 2 21 2 21c2.33-2.33 2.7-3.9 2.75-4.5C3.05 15.07 2 13.13 2 11c0-4.42 4.5-8 10-8Z"/></svg>
+    </a>
+  
+    
+    
+      
+      
+    
+    <a href="https://link.photoprism.app/twitter" target="_blank" rel="noopener" title="link.photoprism.app" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/></svg>
+    </a>
+  
+    
+    
+      
+      
+    
+    <a href="https://link.photoprism.app/reddit" target="_blank" rel="noopener" title="link.photoprism.app" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M201.5 305.5c-13.8 0-24.9-11.1-24.9-24.6 0-13.8 11.1-24.9 24.9-24.9 13.6 0 24.6 11.1 24.6 24.9 0 13.6-11.1 24.6-24.6 24.6zM504 256c0 137-111 248-248 248S8 393 8 256 119 8 256 8s248 111 248 248zm-132.3-41.2c-9.4 0-17.7 3.9-23.8 10-22.4-15.5-52.6-25.5-86.1-26.6l17.4-78.3 55.4 12.5c0 13.6 11.1 24.6 24.6 24.6 13.8 0 24.9-11.3 24.9-24.9s-11.1-24.9-24.9-24.9c-9.7 0-18 5.8-22.1 13.8l-61.2-13.6c-3-.8-6.1 1.4-6.9 4.4l-19.1 86.4c-33.2 1.4-63.1 11.3-85.5 26.8-6.1-6.4-14.7-10.2-24.1-10.2-34.9 0-46.3 46.9-14.4 62.8-1.1 5-1.7 10.2-1.7 15.5 0 52.6 59.2 95.2 132 95.2 73.1 0 132.3-42.6 132.3-95.2 0-5.3-.6-10.8-1.9-15.8 31.3-16 19.8-62.5-14.9-62.5zM302.8 331c-18.2 18.2-76.1 17.9-93.6 0-2.2-2.2-6.1-2.2-8.3 0-2.5 2.5-2.5 6.4 0 8.6 22.8 22.8 87.3 22.8 110.2 0 2.5-2.2 2.5-6.1 0-8.6-2.2-2.2-6.1-2.2-8.3 0zm7.7-75c-13.6 0-24.6 11.1-24.6 24.9 0 13.6 11.1 24.6 24.6 24.6 13.8 0 24.9-11.1 24.9-24.6 0-13.8-11-24.9-24.9-24.9z"/></svg>
+    </a>
+  
+    
+    
+      
+      
+    
+    <a href="https://link.photoprism.app/linkedin" target="_blank" rel="noopener" title="link.photoprism.app" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg>
+    </a>
+  
+    
+    
+      
+      
+    
+    <a href="https://photoprism.app/" target="_blank" rel="noopener" title="photoprism.app" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8h5Z"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.tabs", "navigation.tabs.sticky", "navigation.top"], "search": "../assets/javascripts/workers/search.2a1c317c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.a6c66575.min.js"></script>
+      
+    
+  </body>
+</html>
